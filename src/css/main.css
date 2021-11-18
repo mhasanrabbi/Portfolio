@@ -643,9 +643,9 @@ Jobs
 Projects
 ===============
 */
-.projects {
+/* .projects {
   background: var(--clr-grey-10);
-}
+} */
 .project {
   display: grid;
   margin-bottom: 4rem;
