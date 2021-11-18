@@ -217,7 +217,7 @@ Navbar
   display: flex;
   align-items: center;
   z-index: 200;
-  background: var(--clr-white);
+  /* background: var(--clr-white); */
 }
 .nav-center {
   width: 90vw;
@@ -236,7 +236,7 @@ Navbar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-primary-5);
+  color: var(--clr-grey-2);
   cursor: pointer;
   transition: var(--transition);
 }
@@ -287,7 +287,7 @@ Sidebar
 ===============
 */
 .sidebar {
-  background: var(--clr-grey-10);
+  background: var(--clr-primary-10);
   position: fixed;
   top: 0;
   left: 0;

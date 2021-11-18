@@ -31,9 +31,12 @@ const Hero = () => {
             <h1>
               mahmud hasan <br /> rabbi
             </h1>
-            <h4>frontend web developer</h4>
+            <h4>frontend developer</h4>
             <Link to="/contact" className="btn">
               contact me
+            </Link>
+            <Link to="/contact" className="btn">
+              resume
             </Link>
             <SocialLinks />
           </div>

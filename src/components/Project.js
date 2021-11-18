@@ -3,11 +3,11 @@ import PropTypes from "prop-types"
 import Image from "gatsby-image"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
 const Project = ({ description, title, github, stack, url, image, index }) => {
-  console.log(image.localFile)
+  console.log(image.localFile.childImageSharp.fluid)
   return (
     <article className="project">
       <Image
-        fluid={image[0].localFile.childImageSharp.fluid}
+        fluid={image.localFile.childImageSharp.fluid}
         className="project-img"
       />
       <div className="project-info">
