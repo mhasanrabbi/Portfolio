@@ -36,7 +36,7 @@ module.exports = {
         apiURL: process.env.API_URL || "http://localhost:1337",
         queryLimit: 1000, // Default to 100
         collectionTypes: [`jobs`, `projects`, `blogs`],
-        singleTypes: [],
+        singleTypes: [`about`],
       },
     },
     // {
