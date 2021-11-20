@@ -1,5 +1,5 @@
 import React from "react"
-import Image from "gatsby-image"
+import Img from "gatsby-image"
 import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
 import SocialLinks from "../constants/socialLinks"
@@ -24,7 +24,7 @@ const Hero = () => {
   return (
     <header className="hero">
       <div className="section-center hero-center">
-        <Image fluid={fluid} className="hero-img" />
+        <Img fluid={fluid} className="hero-img" />
         <article className="hero-info">
           <div>
             <div className="underline"></div>

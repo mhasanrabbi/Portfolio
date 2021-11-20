@@ -1,12 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Image from "gatsby-image"
+import Img from "gatsby-image"
 import { Link } from "gatsby"
 const Blog = ({ id, title, image, date, category, slug, description }) => {
   return (
     <Link to={`/blogs/${slug}`} className="blog" key={id}>
       <article>
-        {image && <Image fluid={image[0].localFile.childImageSharp.fluid} />}
+        {image && <Img fluid={image[0].localFile.childImageSharp.fluid} />}
 
         <div className="blog-card">
           <h4>{title}</h4>
@@ -21,6 +21,14 @@ const Blog = ({ id, title, image, date, category, slug, description }) => {
   )
 }
 
-Blog.propTypes = {}
+Blog.propTypes = {
+  id: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
+  image: PropTypes.object.isRequired,
+}
 
 export default Blog
