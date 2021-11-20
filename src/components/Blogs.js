@@ -12,9 +12,11 @@ export const Blogs = ({ blogs, title, showLink }) => {
         })}
       </div>
 
-      <Link to="/blog" className="btn center-btn">
-        blog
-      </Link>
+      {showLink && (
+        <Link to="/blog" className="btn center-btn">
+          all articles
+        </Link>
+      )}
     </section>
   )
 }
