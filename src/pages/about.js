@@ -12,7 +12,7 @@ const About = ({
   const { info, stack, title, image } = nodes[0]
   return (
     <Layout>
-      <SEO title="About" description="about mahmudhasanrabbi" />
+      <SEO title="About" description="about Mahmud Hasan Rabbi" />
       <section className="about-page">
         <div className="section-center about-center">
           <Img
