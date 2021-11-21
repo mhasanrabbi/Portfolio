@@ -7,11 +7,22 @@ const contact = () => {
       <section className="contact-page">
         <article className="contact-form">
           <h3>get in touch</h3>
-          <form>
+          <form
+            action="https://formsubmit.co/mhmdhasanrabbi@gmail.com"
+            method="POST"
+          >
             <div className="form-group">
-              <input type="text" placeholder="name" className="form-control" />
+              <input
+                type="text"
+                name="name"
+                required
+                placeholder="name"
+                className="form-control"
+              />
               <input
                 type="email"
+                name="email"
+                required
                 placeholder="email"
                 className="form-control"
               />

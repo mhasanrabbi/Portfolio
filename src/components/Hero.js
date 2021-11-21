@@ -35,9 +35,6 @@ const Hero = () => {
             <Link to="/contact" className="btn">
               contact me
             </Link>
-            <Link to="/contact" className="btn">
-              resume
-            </Link>
             <SocialLinks />
           </div>
         </article>

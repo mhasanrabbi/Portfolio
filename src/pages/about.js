@@ -2,16 +2,17 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Title from "../components/Title"
+import SEO from "../components/SEO"
 import Img from "gatsby-image"
 const About = ({
   data: {
     about: { nodes },
   },
 }) => {
-  console.log(nodes)
   const { info, stack, title, image } = nodes[0]
   return (
     <Layout>
+      <SEO title="About" description="about mahmudhasanrabbi" />
       <section className="about-page">
         <div className="section-center about-center">
           <Img
