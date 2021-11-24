@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Title from "../components/Title"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 import Img from "gatsby-image"
 const About = ({
   data: {
@@ -12,7 +12,7 @@ const About = ({
   const { info, stack, title, image } = nodes[0]
   return (
     <Layout>
-      <SEO title="About" description="about Mahmud Hasan Rabbi" />
+      <Seo title="About" description="about Mahmud Hasan Rabbi" />
       <section className="about-page">
         <div className="section-center about-center">
           <Img

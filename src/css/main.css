@@ -955,7 +955,7 @@ About Page
   .about-img {
     grid-column: 1 / span 5;
     margin-bottom: 0;
-    animation: bounce 5s infinite;
+    /* animation: bounce 5s infinite; */
   }
   .about-text {
     grid-column: 6 / -1;
