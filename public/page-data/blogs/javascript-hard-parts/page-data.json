@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-template-js",
+    "path": "/blogs/javascript-hard-parts",
+    "result": {"data":{"blog":{"content":"# JavaScript Hard Parts\n## Subtitle\n\n- first item\n- second item\n- third item \n\n> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.\n\n\n```\n<Layout>\n      <section className=\"projects-page\">\n        <Projects projects={projects} title=\"all projects\" />\n      </section>\n    </Layout>\n```","title":"javascript hard parts","description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature."}},"pageContext":{"slug":"javascript-hard-parts"}},
+    "staticQueryHashes": ["3310298967"]}
